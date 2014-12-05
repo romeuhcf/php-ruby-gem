@@ -1,4 +1,5 @@
 # Php
+[![Build Status](https://travis-ci.org/romeuhcf/php-ruby-gem.svg?branch=master)](https://travis-ci.org/romeuhcf/php-ruby-gem)
 
 TODO: Write a gem description
 
@@ -21,6 +22,7 @@ Or install it yourself as:
 ## Usage
 
 TODO: Write usage instructions here
+soon
 
 ## Contributing
 
