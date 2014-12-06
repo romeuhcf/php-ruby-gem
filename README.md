@@ -1,4 +1,4 @@
-# Php
+# PhpRuby
 [![Build Status](https://travis-ci.org/romeuhcf/php-ruby-gem.svg?branch=master)](https://travis-ci.org/romeuhcf/php-ruby-gem)
 
 TODO: Write a gem description
@@ -8,7 +8,7 @@ TODO: Write a gem description
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'php'
+gem 'php_ruby'
 ```
 
 And then execute:
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install php
+    $ gem install php_ruby
 
 ## Usage
 

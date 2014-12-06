@@ -1,4 +1,4 @@
-module Php
+module PhpRuby
   module Array
     module Functions
       extend self

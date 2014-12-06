@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'php/array/functions'
+require 'php_ruby/array/functions'
 
-describe Php::Array::Functions do
+describe PhpRuby::Array::Functions do
 
   let (:integer_array) { [1,2,3,4] }
   let (:string_array) { ['1','2','3','4'] }

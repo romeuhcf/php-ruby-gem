@@ -1,4 +1,4 @@
-module Php
+module PhpRuby
   module Io
     module Functions
       extend self

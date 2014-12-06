@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'php/version'
+require 'php_ruby/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "php-ruby"
-  spec.version       = Php::VERSION
+  spec.name          = "php_ruby"
+  spec.version       = PhpRuby::VERSION
   spec.authors       = ["Romeu Fonseca"]
   spec.email         = ["romeu.hcf@gmail.com"]
   spec.summary       = %q{PHP methods/function in pure Ruby.}

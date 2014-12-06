@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'php/io/functions'
+require 'php_ruby/io/functions'
 
-describe Php::Io::Functions do
+describe PhpRuby::Io::Functions do
 
   describe '#echo' do
     it { expect{subject.echo(1,2,[])}.to_not raise_error }
