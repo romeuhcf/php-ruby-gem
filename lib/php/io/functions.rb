@@ -14,6 +14,10 @@ module Php
         format, *tokens = *args
         format % tokens
       end
+
+      def file(fname)
+        IO.read(fname)
+      end
     end
   end
 end

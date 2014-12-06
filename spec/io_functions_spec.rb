@@ -14,4 +14,8 @@ describe Php::Io::Functions do
   describe '#sprintf' do
     it { expect(subject.sprintf("%0.3f %s", 0.0009, 'sec')).to eq "0.001 sec" }
   end
+
+  describe '#file' do
+    it { expect(subject.file(fixture_file_path('simple.txt'))).to eq "i am \na simple file\n" }
+  end
 end

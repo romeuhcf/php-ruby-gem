@@ -90,3 +90,6 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+def fixture_file_path(fname)
+  File.join(File.dirname(__FILE__), 'fixtures', fname)
+end

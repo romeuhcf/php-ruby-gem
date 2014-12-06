@@ -17,6 +17,10 @@ module Php
 
         result
       end
+
+      def explode(string, sep, count = 0)
+        string.split(sep, count)
+      end
     end
   end
 end

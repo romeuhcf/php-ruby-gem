@@ -242,4 +242,10 @@ describe Php::Array::Functions do
 
   describe '#usort' do
   end
+
+  describe '#explode' do
+    it { expect(subject.explode('a:b:c:d:e', ':')).to be_instance_of Array }
+    it { expect(subject.explode('a:b:c:d:e', ':')).to eq %w{a b c d e} }
+    it { expect(subject.explode('a:b:c:d:e', ':', 3 )).to eq %w{a b c:d:e} }
+  end
 end
