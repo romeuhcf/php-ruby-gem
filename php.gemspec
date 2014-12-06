@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'php/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "php"
+  spec.name          = "php-ruby"
   spec.version       = Php::VERSION
   spec.authors       = ["Romeu Fonseca"]
   spec.email         = ["romeu.hcf@gmail.com"]
