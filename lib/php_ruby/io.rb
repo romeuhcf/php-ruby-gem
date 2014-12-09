@@ -1,3 +1,3 @@
 require 'php_ruby/io/functions'
-Kernel.send :include, PhpRuby::Io::Functions
+Object.send :include, PhpRuby::Io::Functions
 

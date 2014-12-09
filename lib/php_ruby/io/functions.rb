@@ -3,7 +3,7 @@ module PhpRuby
     module Functions
       extend self
       def echo(*args)
-        $stdout.write(args)
+        $stdout.write(args.join(' '))
       end
 
       def print_r(*args)
